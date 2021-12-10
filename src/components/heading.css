@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 2rem;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+}
+
+header .btn-green {
+  padding: 0.5rem 0.75rem;
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+}
+.btn-green:active {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
